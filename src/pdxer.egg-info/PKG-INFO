@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: pdxer
+Version: 0.1.0
+Summary: Pandas Primavera XER interface
+Author-email: Alessandro Thea <alessandro.thea@stfc.ac.uk>
+Maintainer-email: Alessandro Thea <alessandro.thea@stfc.ac.uk>
+Project-URL: Source, https://github.com/alessandrothea/pdxer/
+Keywords: sample,setuptools,development
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: PyP6Xer
+Provides-Extra: dev
+Requires-Dist: check-manifest; extra == "dev"
+Provides-Extra: test
+Requires-Dist: coverage; extra == "test"
