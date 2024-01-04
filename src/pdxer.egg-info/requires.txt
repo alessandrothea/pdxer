@@ -1,8 +1,0 @@
-pandas
-PyP6Xer
-
-[dev]
-check-manifest
-
-[test]
-coverage
